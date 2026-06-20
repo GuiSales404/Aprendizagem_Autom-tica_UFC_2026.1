@@ -1,0 +1,16 @@
+feature,feature_type,n_changes
+SG_UF,non_actionable,20
+COBERTURA_CRECHE_0_3,actionable,10
+IDH_EXPECT_ANOS_ESTUDO,actionable,4
+LOG_PIB_PC,actionable,3
+LOG_POP_TOTAL,actionable,2
+MEDIA_MAT_0_3_POR_ESCOLA,actionable,2
+PIB_PC,actionable,2
+PROP_ESC_PUBLICA,actionable,2
+PROP_MAT_PRETA,actionable,2
+IDH_RAZAO_DEPENDENCIA,actionable,1
+PERC_RENDA_OUTRAS_FONTES,actionable,1
+PROP_DOM_SEM_CONJUGE_MULHER,actionable,1
+PROP_ESC_URBANA,actionable,1
+PROP_MAT_BRANCA,actionable,1
+PROP_MAT_PARDA,actionable,1

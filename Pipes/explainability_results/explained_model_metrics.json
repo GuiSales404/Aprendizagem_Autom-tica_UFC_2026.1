@@ -1,0 +1,9 @@
+{
+    "model_name": "xgboost",
+    "metrics": {
+        "rmse": 0.30660391864784853,
+        "mae": 0.2479917204314858,
+        "r2": 0.2709203078853041
+    },
+    "explain_stacking": false
+}
