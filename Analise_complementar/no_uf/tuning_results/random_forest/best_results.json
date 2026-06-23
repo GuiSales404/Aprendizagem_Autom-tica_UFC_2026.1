@@ -1,0 +1,40 @@
+{
+    "model_name": "random_forest",
+    "best_cv_rmse": 0.3363638140844673,
+    "test_rmse": 0.3328680162989257,
+    "test_mae": 0.28179070784241483,
+    "test_r2": 0.14066255776189274,
+    "best_params": {
+        "k_features": 48,
+        "n_estimators": 226,
+        "max_depth": 26,
+        "min_samples_split": 12,
+        "min_samples_leaf": 15,
+        "max_features": 0.41077537463386654
+    },
+    "n_selected_features": 22,
+    "selected_features": [
+        "PROP_ESC_PUBLICA",
+        "PROP_ESC_URBANA",
+        "PROP_MAT_BRANCA",
+        "PROP_MAT_PRETA",
+        "PROP_MAT_PARDA",
+        "PROP_MAT_INDIGENA",
+        "COBERTURA_CRECHE_0_3",
+        "ESCOLAS_CRECHE_POR_1000_CRIAN",
+        "MEDIA_MAT_0_3_POR_ESCOLA",
+        "LOG_POP_TOTAL",
+        "PIB_PC",
+        "LOG_PIB_PC",
+        "TAXA_OCUP_FEM",
+        "TAXA_OCUP_MASC",
+        "PROP_MAES_JOVENS",
+        "PROP_DOM_SEM_CONJUGE_MULHER",
+        "PERC_RENDA_OUTRAS_FONTES",
+        "RENDA_MEDIANA_RESPONSAVEL",
+        "IDH_PROP_POBREZA_CRIANCAS",
+        "IDH_GINI",
+        "IDH_EXPECT_ANOS_ESTUDO",
+        "IDH_RAZAO_DEPENDENCIA"
+    ]
+}

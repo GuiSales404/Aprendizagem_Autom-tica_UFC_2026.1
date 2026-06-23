@@ -1,0 +1,19 @@
+{
+  "features": {
+    "TAXA_OCUP_MASC": {
+      "shap_com_uf": 0.0079203804144118,
+      "shap_sem_uf": 0.0169910279096621,
+      "rank_com_uf": 8,
+      "rank_sem_uf": 4.0
+    },
+    "TAXA_OCUP_FEM": {
+      "shap_com_uf": 0.0053343774486768,
+      "shap_sem_uf": 0.0061733894089293,
+      "rank_com_uf": 11,
+      "rank_sem_uf": 10.0
+    }
+  },
+  "razao_masc_fem_com_uf": 1.4847806497788156,
+  "razao_masc_fem_sem_uf": 2.7523013346745917,
+  "interpretacao": "Em ambos os cenarios (com e sem SG_UF) TAXA_OCUP_MASC tem maior importancia SHAP que TAXA_OCUP_FEM, refutando parcialmente H1 que esperava ocupacao feminina como driver principal. A razao masc/fem AUMENTA quando SG_UF e removido, sugerindo que SG_UF capturava parte do efeito de ocupacao feminina."
+}

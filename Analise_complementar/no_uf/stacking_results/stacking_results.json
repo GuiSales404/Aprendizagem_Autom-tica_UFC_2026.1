@@ -1,0 +1,80 @@
+{
+    "stacking": {
+        "rmse": 0.3285386160616221,
+        "mae": 0.2748231740186795,
+        "r2": 0.16287088669644645,
+        "model_name": "stacking_ridge",
+        "base_models": [
+            "lightgbm",
+            "catboost",
+            "random_forest",
+            "xgboost",
+            "mlp"
+        ]
+    },
+    "simple_average": {
+        "rmse": 0.32926830176921923,
+        "mae": 0.27716405963104035,
+        "r2": 0.15914822238892612,
+        "model_name": "simple_average",
+        "base_models": [
+            "lightgbm",
+            "catboost",
+            "random_forest",
+            "xgboost",
+            "mlp"
+        ]
+    },
+    "base_models": [
+        {
+            "rmse": 0.3303747207848145,
+            "mae": 0.27627193047243065,
+            "r2": 0.15348780829901065,
+            "model_name": "lightgbm",
+            "best_cv_rmse_from_tuning": 0.33704067791542286,
+            "n_selected_features": 22
+        },
+        {
+            "rmse": 0.3329306217055354,
+            "mae": 0.27771625834946556,
+            "r2": 0.140339281108129,
+            "model_name": "catboost",
+            "best_cv_rmse_from_tuning": 0.3344251392550983,
+            "n_selected_features": 22
+        },
+        {
+            "rmse": 0.3328680162989257,
+            "mae": 0.28179070784241483,
+            "r2": 0.14066255776189296,
+            "model_name": "random_forest",
+            "best_cv_rmse_from_tuning": 0.3363638140844673,
+            "n_selected_features": 22
+        },
+        {
+            "rmse": 0.33216983132400285,
+            "mae": 0.2789300237460113,
+            "r2": 0.14426366835825521,
+            "model_name": "xgboost",
+            "best_cv_rmse_from_tuning": 0.33614345486250236,
+            "n_selected_features": 22
+        },
+        {
+            "rmse": 0.3333102553216182,
+            "mae": 0.2772873335787891,
+            "r2": 0.13837765814858316,
+            "model_name": "mlp",
+            "best_cv_rmse_from_tuning": 0.33778827059839334,
+            "n_selected_features": 22
+        }
+    ],
+    "meta_model": "ridge",
+    "models": [
+        "lightgbm",
+        "catboost",
+        "random_forest",
+        "xgboost",
+        "mlp"
+    ],
+    "n_splits": 5,
+    "random_state": 42
+}

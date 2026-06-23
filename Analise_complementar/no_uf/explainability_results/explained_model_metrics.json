@@ -1,0 +1,9 @@
+{
+    "model_name": "lightgbm",
+    "metrics": {
+        "rmse": 0.3303747207848145,
+        "mae": 0.27627193047243065,
+        "r2": 0.15348780829901065
+    },
+    "explain_stacking": false
+}

@@ -1,0 +1,40 @@
+{
+    "model_name": "catboost",
+    "best_cv_rmse": 0.3344251392550983,
+    "test_rmse": 0.3329306217055354,
+    "test_mae": 0.27771625834946556,
+    "test_r2": 0.140339281108129,
+    "best_params": {
+        "k_features": 45,
+        "iterations": 775,
+        "learning_rate": 0.017161107885754336,
+        "depth": 7,
+        "l2_leaf_reg": 1.909101778238816,
+        "random_strength": 8.045039121498192
+    },
+    "n_selected_features": 22,
+    "selected_features": [
+        "PROP_ESC_PUBLICA",
+        "PROP_ESC_URBANA",
+        "PROP_MAT_BRANCA",
+        "PROP_MAT_PRETA",
+        "PROP_MAT_PARDA",
+        "PROP_MAT_INDIGENA",
+        "COBERTURA_CRECHE_0_3",
+        "ESCOLAS_CRECHE_POR_1000_CRIAN",
+        "MEDIA_MAT_0_3_POR_ESCOLA",
+        "LOG_POP_TOTAL",
+        "PIB_PC",
+        "LOG_PIB_PC",
+        "TAXA_OCUP_FEM",
+        "TAXA_OCUP_MASC",
+        "PROP_MAES_JOVENS",
+        "PROP_DOM_SEM_CONJUGE_MULHER",
+        "PERC_RENDA_OUTRAS_FONTES",
+        "RENDA_MEDIANA_RESPONSAVEL",
+        "IDH_PROP_POBREZA_CRIANCAS",
+        "IDH_GINI",
+        "IDH_EXPECT_ANOS_ESTUDO",
+        "IDH_RAZAO_DEPENDENCIA"
+    ]
+}
